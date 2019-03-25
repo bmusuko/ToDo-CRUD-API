@@ -22,7 +22,6 @@
 
 
 ## Feature
-<
 1. To use GET, you need to input request url = http://localhost:8080/ToDo/rest/ToDos and click send
 2. To use POST, you need to input request url = http://localhost:8080/ToDo/rest/ToDos and fill the body with the input you want to Create,
    for body type use raw - JSON(application/json)
