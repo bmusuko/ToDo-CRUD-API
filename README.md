@@ -22,9 +22,9 @@
 
 
 ## Feature
-1. To use GET, you need to input request url = http://localhost:8080/ToDo/rest/ToDos and click send
+1. To use GET, you need to input request url = http://localhost:8080/ToDo/rest/ToDos and click send, we can also use GET to obtain one      spesific information using input request url =  http://localhost:8080/ToDo/rest/ToDos/{toDoID} (without "{}") fill toDoId with ID        which you want to get the information and click send.
 2. To use POST, you need to input request url = http://localhost:8080/ToDo/rest/ToDos and fill the body with the input you want to Create,
-   for body type use raw - JSON(application/json)
+   for input body's type use raw - JSON(application/json)
    <pre>
 	input example :
 	{
@@ -35,8 +35,8 @@
 	}
 	</pre>
 	lastly click send
-3. To use PUT, you need to input request url = http://localhost:8080/ToDo/rest/ToDos/{toDoID} (without "{}") with toDoID you wish to update and fill the body with the input you want to Update
-   for body type use raw - JSON(application/json)
+3. To use PUT, you need to input request url = http://localhost:8080/ToDo/rest/ToDos/{toDoID} (without "{}") fill toDoId with ID which      you want to update and fill the body with the input you want to Update
+   for input body's type use raw - JSON(application/json)
    <pre>
 	input example :
 	{
@@ -47,7 +47,7 @@
 	}
 	</pre>
 	lastly click send
-4. To use Delete, you need to input request url = http://localhost:8080/ToDo/rest/ToDos/{toDoID} (without "{}") with toDoID you wish to delete and click send
+4. To use Delete, you need to input request url = http://localhost:8080/ToDo/rest/ToDos/{toDoID} (without "{}") fill toDoId with ID        which you want to delete and click send
 
 
 
