@@ -48,7 +48,7 @@
 	}
 	</pre>
 	lastly click send
-4. To use Delete, you need to input request url = http://localhost:8080/ToDo/rest/ToDos/{toDoID}, with toDoID you wish to delete and click send
+4. To use Delete, you need to input request url = http://localhost:8080/ToDo/rest/ToDos/{toDoID} (without "{}") with toDoID you wish to delete and click send
 
 
 
