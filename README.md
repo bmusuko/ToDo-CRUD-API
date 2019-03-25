@@ -25,23 +25,23 @@
 1. To use GET, you need to input request url = http://localhost:8080/ToDo/rest/ToDos and click send
 2. To use POST, you need to input request url = http://localhost:8080/ToDo/rest/ToDos and fill the body with the input you want to Create,
    for body type use raw - JSON(application/json)
-   <br>input example :</br>
-   <br>{</br>
-		<br>"toDoID": "05",</br>
-		<br>"deadline": "23/03/2019",</br>
-		<br>"finished": "false",</br>
-		<br>"description": "Mengerjakan Take Home Test"</br>
-	<br>}</br>
+   <p>input example :</p>
+   <p>{</p>
+		<p>   "toDoID": "05",</p>
+		<p>   "deadline": "23/03/2019",</p>
+		<p>   "finished": "false",</p>
+		<p>   "description": "Mengerjakan Take Home Test"</p>
+	<p>}</p>
 	lastly click send
 3. To use PUT, you need to input request url = http://localhost:8080/ToDo/rest/ToDos/{toDoID} (without "{}") with toDoID you wish to update and fill the body with the input you want to Update
    for body type use raw - JSON(application/json)
-   <br>input example :</br>
-   <br>{</br>
-		<br>"toDoID": "05",</br>
-		<br>"deadline": "23/03/2019",</br>
-		<br>"finished": "false",</br>
-		<br>"description": "Mengerjakan Take Home Test"</br>
-	<br>}</br>
+   <p>input example :</p>
+   <p>{</p>
+		<p>   "toDoID": "05",</p>
+		<p>   "deadline": "23/03/2019",</p>
+		<p>   "finished": "false",</p>
+		<p>   "description": "Mengerjakan Take Home Test"</p>
+	<p>}</p>
 	lastly click send
 4. To use Delete, you need to input request url = http://localhost:8080/ToDo/rest/ToDos/{toDoID}, with toDoID you wish to delete and click send
 
