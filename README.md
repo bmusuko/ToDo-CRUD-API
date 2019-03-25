@@ -22,7 +22,7 @@
 6. In Project Facets select Java version 1.8 and in runtime column mark Apache Tomcat
 7. In Java Build Path click on JRE System Library and Maven Dependencies
 8. Select Run Configuration and fill Base directory with your project and Goals with "tomcat<tomcatVersion>"run"
-9. open postman and enter request url : http://localhost:8080/ToDo/rest/ToDos
+9. Open postman and enter request url : http://localhost:8080/ToDo/rest/ToDos
 
 
 ## Feature
