@@ -1,4 +1,4 @@
-# ToDo CRUD by JAVA
+# ToDo CRUD using JAVA
 
 <p>Welcome to ToDo CRUD API using JAVA</p>
 <p>This application can Create, Read, Update, Delete ToDo</p>
