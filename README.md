@@ -16,9 +16,13 @@
 
 1. Clone the github into your computer
 2. Install all the requirements
-3. import the project in eclipse
-4. run the project using eclipse
-5. open postman and enter request url : http://localhost:8080/ToDo/rest/ToDos
+3. Import the project in eclipse
+4. Right click on ToDo Project and go to properties
+5. In Java Compiler select Compiler Compliance level 1.8
+6. In Project Facets select Java version 1.8 and in runtime column mark Apache Tomcat
+7. In Java Build Path click on JRE System Library and Maven Dependencies
+8. Select Run Configuration and fill Base directory with your project and Goals with "tomcat<tomcatVersion>"run"
+9. open postman and enter request url : http://localhost:8080/ToDo/rest/ToDos
 
 
 ## Feature
