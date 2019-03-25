@@ -34,8 +34,8 @@
 		"finished": "false",
 		"description": "Mengerjakan Take Home Test"
 	}
+	</pre>
 	lastly click send
-   </pre>
 3. To use PUT, you need to input request url = http://localhost:8080/ToDo/rest/ToDos/{toDoID} (without "{}") with toDoID you wish to update and fill the body with the input you want to Update
    for body type use raw - JSON(application/json)
    <pre>
@@ -46,8 +46,8 @@
 		"finished": "false",
 		"description": "Mengerjakan Take Home Test"
 	}
+	</pre>
 	lastly click send
-   </pre>
 4. To use Delete, you need to input request url = http://localhost:8080/ToDo/rest/ToDos/{toDoID}, with toDoID you wish to delete and click send
 
 
